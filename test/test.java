@@ -43,6 +43,8 @@ public class test{
 		FileOutputStream fos = new FileOutputStream(file);
 //		Workbook wb = (XSSFWorkbook)WorkbookFactory.create(new FileInputStream(file));
 //		
+		
+		
 		String mmp = "妈卖批啊";
 //		Sheet sheet = wb.createSheet("我有一只小毛驴");
 //		
