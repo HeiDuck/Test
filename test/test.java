@@ -45,7 +45,10 @@ public class test{
 //		
 		
 		
-		String mmp = "妈卖批啊";
+		String mmp = "妈卖批啊";   
+		
+		
+		
 //		Sheet sheet = wb.createSheet("我有一只小毛驴");
 //		
 //		Row row;
