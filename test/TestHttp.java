@@ -22,6 +22,9 @@ public class TestHttp {
 	}
 	TestHttp(){}
 	public void getMessage() throws Exception{
+		
+		
+		
 		String url = "http://192.168.100.18:10120/servlets/binserv/B2B"; 
 		String command = "com.agilecontrol.phone.B2BCmd";
 		String cmd = "b2b.login";
