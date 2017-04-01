@@ -14,18 +14,14 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
+import org.testng.annotations.Test;
 
 public class TestHttp {
 	public String result;
-	public static void main(String[] args) throws Exception, Exception {
-		
-	}
 	TestHttp(){}
+	@Test
 	public void getMessage() throws Exception{
-		
-		
-		
-		String url = "http://192.168.100.18:10120/servlets/binserv/B2B"; 
+		String url = "http://localhost:12138/servlets/binserv/B2B"; 
 		String command = "com.agilecontrol.phone.B2BCmd";
 		String cmd = "b2b.login";
 		String username = "root";
